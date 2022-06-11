@@ -1,4 +1,6 @@
 import React from "react";
+import './Projects.css'
+
 
 const Projects = ()=>{
   return (
@@ -20,9 +22,9 @@ const Projects = ()=>{
             </div>
           </div>
 
-          <div className="row">
+          <div className="row project-wrapper">
             <div className="col-sm-4 col-md-4 text-center">
-              <div className="luvtalk-project">
+              <div className="luvtalk-project project-display">
                 <h3>LUV TALK Website</h3>
                 <p>
                   Website, created during my first internship, which utilized
@@ -31,7 +33,7 @@ const Projects = ()=>{
                 <div className="row">
                   <div className="col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
                     <div className="project-more-info">
-                      <a className="btn btn-default btn-border" href="#">
+                      <a className="my-btn" href="more">
                         More
                       </a>
                     </div>
@@ -41,7 +43,7 @@ const Projects = ()=>{
             </div>
 
             <div className="col-sm-4 col-md-4 text-center">
-              <div className="personal-website-project">
+              <div className="personal-website-project project-display">
                 <h3>Personal Website</h3>
                 <p>
                   Enjoyable side project that was created to experiment with
@@ -51,7 +53,7 @@ const Projects = ()=>{
                 <div className="row">
                   <div className="col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
                     <div className="project-more-info">
-                      <a className="btn btn-default btn-border" href="#">
+                      <a className="my-btn" href="more">
                         More
                       </a>
                     </div>
@@ -61,7 +63,7 @@ const Projects = ()=>{
             </div>
 
             <div className="col-sm-4 col-md-4 text-center">
-              <div className="strike-zone-project">
+              <div className="strike-zone-project project-display">
                 <h3>Strike Zone Analysis</h3>
                 <p>
                   Data analytics project completed during my time at the
@@ -71,7 +73,7 @@ const Projects = ()=>{
                 <div className="row">
                   <div className="col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
                     <div className="project-more-info">
-                      <a className="btn btn-default btn-border" href="#">
+                      <a className="my-btn" href="more">
                         More
                       </a>
                     </div>
@@ -83,8 +85,8 @@ const Projects = ()=>{
 
           <div className="row">
             <div className="col-sm-2 col-md-2 col-sm-offset-5 col-md-offset-5">
-              <div className="see-more-button">
-                <a className="btn btn-default btn-border" href="#">
+              <div className="see-more-a">
+                <a className="my-btn" href="more">
                   More Projects
                 </a>
               </div>

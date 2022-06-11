@@ -1,0 +1,25 @@
+.my-btn{
+  width: 100%;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  border: solid 2px white;
+  color: white;
+  font-size: 3rem;
+  display: block;
+}
+
+.banner-buttons{
+  margin-top: 5rem;
+}
+
+.banner-buttons > div{
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 550px) {
+  .my-btn {
+    display: inline;
+    padding: .5rem 1rem;
+  }
+}
