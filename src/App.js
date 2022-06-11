@@ -1,14 +1,19 @@
 import Nav from "./components/header/Nav";
-import Footer from "./components/footer/Footer";
-import Main from "./components/main/Main"
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Home from "./Home"
+import Portfolio from "./Portfolio"
+import Contact from "./Contact";
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Main />
-      <Footer />
-    </>
+      <BrowserRouter>
+          <Nav />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/portfolio" element={<Portfolio />} />
+            <Route exact path="/contact" element={<Contact />} />
+          </Routes>
+      </BrowserRouter>
   );
 }
 
